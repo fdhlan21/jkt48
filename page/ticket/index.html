@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/assets/style/tiket.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alata&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link href="/assets/style/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <title>JKT48 - TICKET </title>
+</head>
+<body>
+    
+<nav>
+    <h2>Pembelian Ticket</h2>
+</nav>
+
+<main>
+
+<div id="backcontainer">
+    <button onclick="window.location.href='/page/home/index.html'">Kembali</button>
+</div>
+
+<div id="containerformticket">
+
+    <div id="imgticketkonser">
+        <div>
+            <img src="/assets/img/iconsummerfestival.jpg" height="200" alt="iconsummerfestival" >
+            <p style="text-align: center; font-size: 12px;">Summer Festival 2023 JKT48.</p>
+            <p style="text-align: center; font-size: 15px; margin-top: 10px; font-weight: 600;">Harga Ticket : Rp. 85.000;</p>
+        </div>
+    </div>
+
+    <section>
+        <div id="maincontainerfrom">
+            <div id="containerform">
+                <form action="" method="post">
+        
+                    <label for="namalengkap">Nama Lengkap*</label>
+                    <br>
+                    <input type="text" id="namalengkap" placeholder="Masukan nama lengkap..." class="form-control" required>
+                    <br>
+                    <br>
+                    <label for="email">Email*</label>
+                    <br>
+                    <input type="email" id="email" placeholder="Masukan email..." class="form-control" required>
+                    <br>
+                    <br>
+                    <label for="nomorhp">Nomor HP*</label>
+                    <br>
+                    <input type="tel" id="nomorhp" placeholder="Masukan nomor hp..." class="form-control" required>
+                    <br>
+                    <br>
+                    <label for="nomorrek">Bank*</label>
+                    <br>
+                    <select name="nomorrek" id="nomorrek" class="form-control">
+                        <option value="bca">BCA</option>
+                        <option value="bri">BRI</option>
+                        <option value="mandiri">Mandiri</option>
+                        <option value="bni">BNI</option>
+                    </select>
+        
+
+                    <br>
+                    <br>
+                    <button type="submit" class="form-control btn btn-danger">Beli Ticket</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+</div>
+
+
+<div id="containergalerysummerfestival">
+
+<h2>#SummerFestival</h2>
+
+<div id="maincontentgalerysummerfestival">
+
+    <img src="/assets/img/jkt48summerphotoone.jpg" height="280" alt="#SummerFestival">
+    <img src="/assets/img/jkt48summerphototwo.jpg" height="280" alt="#SummerFestival">
+    <img src="/assets/img/jkt48summerphotothree.jpg" height="280" alt="#SummerFestival">
+
+</div>
+
+</div>
+
+</main>
+
+<footer>
+    <p>Hak Cipta &copy; 2024 JKT48 WEB FANS</p>
+</footer>
+
+</body>
+</html>

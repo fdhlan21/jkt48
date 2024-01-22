@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/assets/style/login.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alata&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/style/bootstrap.min.css">
+<script src="/assets//js/jquery.min.js"></script>
+<script src="/assets//js/bootstrap.bundle.min.js"></script>
+<script src="/assets//js/home.js"></script>
+    <title>JKT48 -  REGISTER</title>
+</head>
+<body>
+
+    <nav>
+        <div id="divnavimg">
+                <img src="/assets/img/jkt48icon.jpg" height="40" alt="iconjkt48">
+        </div>
+
+        <div id="divlist">
+            <ul id="listnav">
+                <li><a href="/page/home/index.html" id="homehref">Home</a></li>
+                <li><a href="/page/ticket/index.html" id="buyticket">Pembelian Ticket</a></li>
+                <li><a href="#aboutjkt48" id="schedule">Schedule</a></li>
+                <li><a href="#aboutjkt48" id="member">Member</a></li>
+                <li><a href="#aboutjkt48" id="theater">Theater</a></li>
+                <li><a href="#aboutjkt48" id="shop">Shop</a></li>
+                <li><a href="#aboutjkt48" id="fansclub">Fans Club</a></li>
+                <li><a href="/page/home/index.html" id="about">About</a></li>
+                <li><a href="/page/login/login.html" id="loginregister">Login / Register</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+      
+        <section id="loginjkt48">
+
+            <div class="card" style="padding: 10px;">
+                <h2 style="margin-bottom: 5%">Register*</h2>
+                
+                <form autocomplete="off" method="post" action="">
+
+                    <div class="mb-3">
+                        <label for="oshi" class="form-label">Oshi Kamu*</label>
+                        <select id="oshi" class="form-control" required>
+                            <option value="amandajkt48-gen10">Amanda</option>
+                            <option value="zeejkt48-gen07">Azizi Shafa Asadel</option>
+                        </select>
+                      
+                      </div>
+
+
+                    <div class="mb-3">
+                      <label for="namalengkap" class="form-label">Nama Lengkap*</label>
+                      <input type="text" class="form-control" id="namalengkap" required>
+                    
+                    </div>
+
+                      <div class="mb-3">
+                        <label for="password" class="form-label">Password*</label>
+                        <input type="password" class="form-control" id="password" required>
+                      
+                      </div>
+
+                      <div class="mb-3">
+                        <label for="kodepos" class="form-label">Kode Pos*</label>
+                        <input type="number" class="form-control" id="kodepos" required>
+                      
+                      </div>
+
+                      <div class="mb-3">
+                        <label for="alamatlengkap" class="form-label">Alamat Lengkap*</label>
+                        <textarea class="form-control" id="alamatlengkap" required></textarea>
+                       
+                      </div>
+                      
+                      <div class="mb-3">
+                        <label for="provinsi" class="form-label">Provinsi / Kota*</label>
+                        <input type="text" class="form-control" id="provinsi" required>
+                      
+                      </div>
+
+                    
+
+                    <button type="submit" class="btn btn-danger form-control" onclick="alert('Pendaftaran Berhasil!')">Register</button>
+             </form>
+                 
+                 
+            </div>
+
+        </section>
+
+       
+                 
+    </main>
+
+
+
+</body>
+</html>

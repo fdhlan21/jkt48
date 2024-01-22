@@ -1,0 +1,130 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Alata', sans-serif;
+    
+}
+
+nav {
+    background-color: red;
+    display: flex;
+    padding: 10px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+nav h2 {
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+}
+
+#backcontainer {
+    padding: 10px;
+    
+}
+
+#backcontainer button {
+    border:  2px solid red;
+    background-color: transparent;
+    font-family: 'Alata', sans-serif;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#containerformticket {
+
+    padding: 10px;
+    
+  
+}
+
+#imgticketkonser  {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#maincontainerfrom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#containerform {
+    padding: 10px;
+    border: 1px solid red;
+    border-radius: 5px;
+    margin-top: 5%;
+    width: 70%;
+    
+}
+
+label {
+    font-size: 12px;
+    text-align: left;
+
+}
+
+.formfeild {
+    font-family: 'Alata', sans-serif;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    width: 97%;
+    height: 30px;
+}
+
+.buttonfeild {
+    width: 100%;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    font-family: 'Alata', sans-serif;
+    padding: 10px;
+    
+}
+
+.formselect {
+    font-family: 'Alata', sans-serif;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    width: 100%;
+    height: 30px;
+}
+
+
+#containergalerysummerfestival {
+    padding: 10px;
+    margin: 10px;
+    margin-top: 10%;
+}
+
+#containergalerysummerfestival h2 {
+    text-align: left;
+    font-size: 15px;
+}
+
+#maincontentgalerysummerfestival {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 5px;
+    
+
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+}
